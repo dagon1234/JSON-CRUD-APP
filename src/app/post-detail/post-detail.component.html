@@ -1,6 +1,10 @@
 <div class="container">
   <h2>{{ post?.title }}</h2>
   <p>{{ post?.body }}</p>
-  <button routerLink="/edit/{{ post?.id }}">Edit</button>
-  <button routerLink="/posts">Save</button>
+  <div class="button-container">
+    <button routerLink="/edit/{{ post?.id }}" class="btn btn-primary">
+      Edit
+    </button>
+    <button routerLink="/posts" class="btn btn-success">Save</button>
+  </div>
 </div>

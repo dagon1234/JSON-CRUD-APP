@@ -1,21 +1,27 @@
 <div class="container">
   <h2>Edit Post</h2>
-  <form (submit)="updatePost()">
-    <label for="title">Title:</label>
-    <input
-      type="text"
-      id="title"
-      name="title"
-      [(ngModel)]="editedPost.title"
-      required
-    />
-    <label for="body">Body:</label>
-    <textarea
-      id="body"
-      name="body"
-      [(ngModel)]="editedPost.body"
-      required
-    ></textarea>
-    <button type="submit">Save Changes</button>
+  <form (submit)="updatePost()" class="post-form">
+    <div class="form-group">
+      <label for="title">Title:</label>
+      <input
+        type="text"
+        id="title"
+        name="title"
+        [(ngModel)]="editedPost.title"
+        required
+        class="form-control"
+      />
+    </div>
+    <div class="form-group">
+      <label for="body">Body:</label>
+      <textarea
+        id="body"
+        name="body"
+        [(ngModel)]="editedPost.body"
+        required
+        class="form-control"
+      ></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
   </form>
 </div>
