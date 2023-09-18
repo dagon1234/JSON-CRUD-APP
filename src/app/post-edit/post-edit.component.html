@@ -1,0 +1,21 @@
+<div class="container">
+  <h2>Edit Post</h2>
+  <form (submit)="updatePost()">
+    <label for="title">Title:</label>
+    <input
+      type="text"
+      id="title"
+      name="title"
+      [(ngModel)]="editedPost.title"
+      required
+    />
+    <label for="body">Body:</label>
+    <textarea
+      id="body"
+      name="body"
+      [(ngModel)]="editedPost.body"
+      required
+    ></textarea>
+    <button type="submit">Save Changes</button>
+  </form>
+</div>
