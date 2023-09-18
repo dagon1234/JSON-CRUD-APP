@@ -70,7 +70,7 @@ The application consists of the following components:
 
 ## Services
 
-The `DataService` and `PostService` services are used to interact with the JSONPlaceholder API for fetching, creating, updating, and deleting posts.
+The `PostService` services are used to interact with the JSONPlaceholder API for fetching, creating, updating, and deleting posts.
 
 ## Routing
 
