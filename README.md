@@ -1,27 +1,77 @@
-# JsonCrudApp
+# Angular JSONPlaceholder App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
+This is an Angular application that interacts with the JSONPlaceholder API to manage posts. It allows users to view a list of posts, view post details, add new posts, edit existing posts, and delete posts.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Components](#components)
+- [Services](#services)
+- [Routing](#routing)
+- [License](#license)
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the repository to your local machine:
 
-## Build
+   ```bash
+   git clone <repository-url>
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Navigate to the project directory:
 
-## Running unit tests
+   ```bash
+   cd angular-jsonplaceholder-app
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Install the project dependencies:
 
-## Running end-to-end tests
+   ```bash
+   npm install
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. Start the development server:
 
-## Further help
+   ```bash
+   ng serve
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+5. Open your web browser and navigate to `http://localhost:4200/` to view the application.
+
+## Usage
+
+- View a list of posts on the homepage.
+- Click on a post to view its details.
+- Add a new post by clicking the "Add Post" button and filling in the form.
+- Edit an existing post by clicking the "Edit" button on the post details page.
+- Delete a post by clicking the "Delete" button on the post details page.
+
+## Folder Structure
+
+The project has the following folder structure:
+
+- `src/app`: This folder contains the Angular application components and services.
+- `src/app/components`: This folder contains the Angular components used in the application.
+- `src/app/services`: This folder contains services for making HTTP requests to the JSONPlaceholder API.
+- `src/app/app-routing.module.ts`: This file defines the application's routes.
+- `src/app/app.module.ts`: This file defines the root module of the application.
+- `src/assets`: This folder contains static assets such as images, styles, and fonts.
+
+## Components
+
+The application consists of the following components:
+
+- `PostListComponent`: Displays a list of posts.
+- `PostDetailComponent`: Displays the details of a specific post.
+- `PostAddComponent`: Allows users to add a new post.
+- `PostEditComponent`: Allows users to edit an existing post.
+
+## Services
+
+The `DataService` and `PostService` services are used to interact with the JSONPlaceholder API for fetching, creating, updating, and deleting posts.
+
+## Routing
+
+The application uses Angular's routing to navigate between different views. The routes are defined in the `app-routing.module.ts` file.
