@@ -27,7 +27,7 @@ To run this Angular app locally, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   cd your-repo-name
+   cd JSON-CRUD-APP
    ```
 
 3. Install the required dependencies:
