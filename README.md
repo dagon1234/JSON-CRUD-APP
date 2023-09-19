@@ -1,5 +1,9 @@
 # Angular JSONPlaceholder App
 
+link
+```bash
+https://youtu.be/6HZiuoXXAdk
+```
 ## Description
 
 This Angular application is a simple example of a blog post management system. It allows users to view a list of posts, view post details, add new posts, edit existing posts, and delete posts. The application uses the JSONPlaceholder API as a backend to simulate CRUD operations on posts.
