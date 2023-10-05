@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PostService } from '../post.service';
-import { Router } from '@angular/router';
+import { LikeService } from '../like.service';
 @Component({
   selector: 'app-post-list',
   templateUrl: './post-list.component.html',
@@ -9,7 +9,9 @@ import { Router } from '@angular/router';
 export class PostListComponent implements OnInit {
   posts: any[]=[];
 
-  constructor(private postService: PostService) {}
+  constructor(
+    private postService: PostService, 
+    private likeService: LikeService) {}
 
   ngOnInit() {
     this.postService.getPosts().subscribe(posts => {

@@ -8,6 +8,7 @@ import { PostEditComponent } from './post-edit/post-edit.component';
 import { AdminGuard } from './guards/admin.guard';
 import { UserGuard } from './guards/user.guard';
 import { PostUserComponent } from './post-user/post-user.component';
+import { PostDetailComponentUser } from './post-detail-user/post-detail-user.component';
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
       { path: 'posts', component: PostListComponent },
       { path: 'posts/user', component: PostUserComponent, canActivate: [UserGuard] },
       { path: 'posts/:id', component: PostDetailComponent },
+      { path: 'postsUser/:id', component: PostDetailComponentUser, canActivate:[UserGuard]},
       { path: 'add', component: PostAddComponent },
       { path: 'edit/:id', component: PostEditComponent },
     ],
