@@ -2,7 +2,7 @@
 
 link youtube 
 ```bash
-https://youtu.be/6HZiuoXXAdk
+
 ```
 ## Description
 
