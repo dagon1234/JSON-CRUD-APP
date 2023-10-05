@@ -14,6 +14,7 @@ import { PostEditComponent } from './post-edit/post-edit.component';
 import { PostUserComponent } from './post-user/post-user.component';
 import { LoginComponent } from './login/login.component';
 import { PostDetailComponentUser } from './post-detail-user/post-detail-user.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { PostDetailComponentUser } from './post-detail-user/post-detail-user.com
     HttpClientModule,
     FormsModule,
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
