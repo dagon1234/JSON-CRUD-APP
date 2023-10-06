@@ -1,0 +1,72 @@
+/* Reset some default styles */
+body, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the post list title */
+.post-list-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the back button */
+.back-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Style the back button colors */
+.btn-primary {
+  background-color: #0c0c0c;
+  color: #fff;
+  margin-bottom: 10px;
+  border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Style the post list */
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Style the individual post item */
+.post-item {
+  flex-basis: calc(22% - 20px); /* Adjust for the desired number of columns (3 columns in this case) */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the post title */
+.post-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-decoration: none; /* Remove underlines from links */
+  color: #333; /* Adjust link color */
+}
+
+/* Style the post title on hover */
+.post-title:hover {
+  color: #007bff; /* Change link color on hover */
+}

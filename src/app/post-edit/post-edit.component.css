@@ -1,0 +1,60 @@
+/* Reset some default styles */
+body, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the container */
+.container {
+  max-width: 800px;
+  margin: 100px 0 0 300px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the edit post title */
+.edit-post-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the form and form elements */
+.post-form {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #000000;
+  color: #fff;
+}

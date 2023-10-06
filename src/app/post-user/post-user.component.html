@@ -1,9 +1,9 @@
 <div class="container">
   <h2 class="post-list-title">Post List</h2>
   <button routerLink="/login" class="btn btn-primary">Back to login</button>
-  <ul class="post-list">
-    <li *ngFor="let post of posts">
-      <a [routerLink]="['/postsUser', post.id]">{{ post.title }}</a>
-    </li>
-  </ul>
+  <div class="post-list">
+    <div class="post-item" *ngFor="let post of posts">
+      <a [routerLink]="['/postsUser', post.id]" class="post-title">{{ post.title }}</a>
+    </div>
+  </div>
 </div>

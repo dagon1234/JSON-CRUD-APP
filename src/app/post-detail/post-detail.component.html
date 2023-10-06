@@ -2,10 +2,11 @@
   <h2>{{ post?.title }}</h2>
   <p>{{ post?.body }}</p>
   <div class="button-container">
+    <p>Likes: {{ likes }}
     <button routerLink="/edit/{{ post?.id }}" class="btn btn-primary">
       Edit
     </button>
-    <p>Likes: {{ likes }}</p>
     <button routerLink="/posts" class="btn btn-primary">Back to Posts</button>
+    </p>
   </div>
 </div>

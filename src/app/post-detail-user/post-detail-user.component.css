@@ -1,0 +1,72 @@
+/* Reset some default styles */
+body, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the container */
+  .container {
+    max-width: 800px;
+    margin: 100px 0 0 300px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the post detail */
+  .post-detail {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style the post detail title */
+  .post-detail-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the post title */
+  .post-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the post body */
+  .post-body {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the like count and buttons */
+  .post-likes {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  /* Style the like button */
+  .like-button {
+    background-color: #28a745;
+  }
+  
+  /* Style the back button */
+  .back-button {
+    background-color: #dc3545;
+  }
+  

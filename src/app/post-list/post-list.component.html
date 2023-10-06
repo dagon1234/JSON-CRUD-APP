@@ -1,13 +1,21 @@
-<div class="container">
-  <h2>Post List</h2>
-  <button routerLink="/login" class="btn btn-success">Back to login</button>
-  <ul>
-    <li *ngFor="let post of posts">
-      <a [routerLink]="['/posts', post.id]">{{ post.title }}</a>
-      <button (click)="deletePost(post.id)" class="btn btn-danger">
-        Delete
-      </button>
-    </li>
-  </ul>
-  <button routerLink="/add" class="btn btn-success">Add New Post</button>
+<div class="container text-center">
+  <h2 class="post-list-title">Post List</h2>
+  
+  <div class="button-container">
+    <button routerLink="/login" class="btn btn-success back-button">Back to login</button>
+    <button routerLink="/add" class="btn btn-success add-button">Add New Post</button>
+  </div>
+  
+  <div class="post-list">
+    <div class="post-item" *ngFor="let post of posts">
+      <div class="post-content">
+        <h5 class="post-title">
+          <a [routerLink]="['/posts', post.id]">{{ post.title }}</a>
+        </h5>
+        <button class="btn btn-danger" (click)="deletePost(post.id)">
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
 </div>

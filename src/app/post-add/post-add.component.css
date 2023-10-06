@@ -1,0 +1,30 @@
+/* CSS Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .post-form-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #fff;
+    width: 50%; /* กำหนดความกว้างตามต้องการ */
+  }
+  
+  .post-form {
+    margin-top: 20px;
+  }
+  .btn-primary {
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  /* เพิ่มสไตล์อื่น ๆ ตามต้องการ */
+  

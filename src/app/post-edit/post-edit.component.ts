@@ -40,7 +40,7 @@ export class PostEditComponent implements OnInit {
 
   updatePost() {
     this.postService.updatePost(this.postId, this.editedPost).subscribe(() => {
-      this.router.navigate(['/posts', this.postId]);
+      this.router.navigate(['/posts']);
     });
   }
 }

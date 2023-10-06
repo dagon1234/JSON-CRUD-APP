@@ -1,1 +1,47 @@
+/* CSS Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* จัดให้ความสูงเท่ากับความสูงของหน้าจอ */
+  }
+  
+  .login-form {
+    padding: 20px;
+    border: 1px solid #ccc; /* กรอบ */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* เงา */
+    text-align: center;
+    background-color: #fff; /* สีพื้นหลัง */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    margin: 5px;
+  }
 
+  .btn-primary {
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .btn-success {
+    background-color: #7e7e7e;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
